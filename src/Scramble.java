@@ -42,21 +42,23 @@ public class Scramble {
         }
     }
 
-    public static List<String> scrambleOrRemove(List<String> original) {
-        List<String> wordList = new ArrayList<String>();
+    public static void scrambleOrRemove(List<String> wordList) {
+        List<String> wordList2 = new ArrayList<String>();
 
-        // Add scrambled words to wordList
-        for (String x : original) {
+        // Add scrambled words to wordList2
+        for (String x : wordList) {
             if (! x.equals(scrambleWord(x))) {
-                wordList.add(scrambleWord(x));
+                wordList2.add(scrambleWord(x));
             }
         }
+
+        // Modify wordList
+        wordList = wordList2;
+
 
         // Debug :(
         for (String x : wordList) {
             System.out.println(x);
         }
-
-        return wordList;
     }
 }
