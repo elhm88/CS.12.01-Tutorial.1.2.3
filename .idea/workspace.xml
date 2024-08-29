@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71dda625-d4b2-49d8-801b-b4f17093b6b4" name="Changes" comment="First commit.">
+    <list default="true" id="71dda625-d4b2-49d8-801b-b4f17093b6b4" name="Changes" comment="Second commit.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Scramble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scramble.java" afterDir="false" />
     </list>
@@ -45,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ScrambleTest.scrambleOrRemove">
+  <component name="RunManager">
     <configuration name="ScrambleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CS.12.01-Tutorial.1.2.3" />
       <option name="PACKAGE_NAME" value="" />
@@ -100,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724379309508</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second commit.">
+      <option name="closed" value="true" />
+      <created>1724725615904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724725615904</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit." />
+    <MESSAGE value="Second commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit." />
   </component>
 </project>

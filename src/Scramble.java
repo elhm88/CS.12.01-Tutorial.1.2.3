@@ -43,22 +43,20 @@ public class Scramble {
     }
 
     public static void scrambleOrRemove(List<String> wordList) {
-        List<String> wordList2 = new ArrayList<String>();
-
-        // Add scrambled words to wordList2
-        for (String x : wordList) {
-            if (! x.equals(scrambleWord(x))) {
-                wordList2.add(scrambleWord(x));
+        for (int i = 0; i < wordList.size(); i++) {
+            String word = wordList.get(i);
+            String scrambled = scrambleWord(word);
+            if (word.equals(scrambled)) { // if word does not need to be scrambled, remove it from wordList
+                wordList.remove(i);
+                i--; // index needs to be adjusted
+            } else { // if word is scrambled, update wordList
+                wordList.set(i, scrambled);
             }
-        }
 
-        // Modify wordList
-        wordList = wordList2;
-
-
-        // Debug :(
-        for (String x : wordList) {
-            System.out.println(x);
+            // Debug :(
+            for (String x : wordList) {
+                System.out.println(x);
+            }
         }
     }
 }
